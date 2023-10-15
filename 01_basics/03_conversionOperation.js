@@ -6,51 +6,51 @@ let valueInNumber=Number(score);
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
-let score=null;
+let score1=null;
 console.log(typeof score);//
 console.log(typeof(score));
 
-let valueInNumber=Number(score);
+let valueInNumber1=Number(score);
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
-let score="null";
+let score2="null";
 console.log(typeof score);//
 console.log(typeof(score));
 
-let valueInNumber=Number(score);
+let valueInNumber2=Number(score);
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
-let score=undefined;
+let score3=undefined;
 console.log(typeof score);//
 console.log(typeof(score));
 
-let valueInNumber=Number(score);
+let valueInNumber3=Number(score);
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
-let score=true;
+let score4=true;
 console.log(typeof score);//
 console.log(typeof(score));
 
-let valueInNumber=Number(score);
+let valueInNumber4=Number(score);
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
-"33"=>33
-"33abc=>NaN"
-true=>1;false=>0
+// "33"=>33
+// "33abc=>NaN"
+// true=>1;false=>0
 
 let isLoggedIn=" ";
 let booleanIsLoggedin=Boolean(isLoggedIn)
 console.log(booleanIsLoggedin);
 
-""=>false
-" "=>true
-0 => false
-1 => true;
-"anything inside this string be it a blank space"=>true;
+// ""=>false
+// " "=>true
+// 0 => false
+// // 1 => true;
+// "anything inside this string be it a blank space"=>true;
 
 let someNumber=33
 let stringNumber=String(someNumber)
