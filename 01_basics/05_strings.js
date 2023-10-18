@@ -25,8 +25,8 @@ console.log(newString)
 
 const anotherString=gameName.slice(-8,4)
 console.log(anotherString);
-
-//The difference between substring and slice is theat cannot use negative indices in substring , even if you put it won't obey.
+//If you pass negative integers as the values in the substring function ,it'll consider it as a normal 0.
+//The difference between substring and slice is that cannot use negative indices in substring , even if you put it won't obey.
 
 const newStringOne="  hitesh   "
 console.log(newStringOne);
@@ -39,6 +39,8 @@ console.log(url.replace('%20','-'))
 console.log(url.includes('sundar'))
 console.log(gameName.split('-'))
 
+const bigNumber=456237443648279897799798827918737371972773882372938n
+console.log(typeof bigNumber)//undefined
 
 
 

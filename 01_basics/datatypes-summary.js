@@ -4,7 +4,7 @@
 // Primitive:
 // 7:
 
-// String,Number,Boolean,null,undefined,Symbol: used foer making a value unique, BigInt : scientific values, large numbers
+// String,Number,Boolean,null,undefined,Symbol: used for making a value unique, BigInt : scientific values, large numbers
 
 // Non Primitive/ Reference type:
 //Arrays,Objects,Functions
@@ -26,7 +26,7 @@ const anotherid=Symbol('123')
 
 // console.log(id==anotherid); //false
 
-// const bigNumber=456237443648279897799798827918737371972773882372938n
+const bigNumber=456237443648279897799798827918737371972773882372938n
 
 // . Every BigInt value must contain a lowercase n after the number. Basically that n indicates that it is a bigint number.
 const heroes=["shaktiman","nagagraj","doga"]
@@ -42,7 +42,7 @@ const myFunction=function(){
     console.log("Hello World")
 
 }
-console.log(typeof bigNumber)//undefined
+console.log(typeof bigNumber)//bigint
 console.log(typeof myObj)//object
 console.log(typeof myFunction)//function
 // INTERVIEW QUESTION:
@@ -62,7 +62,7 @@ console.log(typeof anotherid)//symbol
 // +++++++++++++++++++++++++++++++++++++++++
 
 
-// Stack (Primitive): You get the copy of the variable, Heap(Non-Primitive): Changes are made in the original vslue.Passed by reference
+// Stack (Primitive): You get the copy of the variable, Heap(Non-Primitive): Changes are made in the original value.Passed by reference
 let myYoutubename="hiteshchoudharydot.com"
 let anothername=myYoutubename
 anothername="chaiaurcode"
@@ -74,6 +74,7 @@ let userOne={
     email:"user@google.com",
     upi:"user@ybl"
 }
+
 let userTwo=userOne
 userTwo.email="hitesh@google.com"
 console.log(userOne.email)
