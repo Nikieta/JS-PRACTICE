@@ -36,11 +36,11 @@ console.log(newDate.getSeconds());
 
 // `${newDate.getDay()} and the time`...application 
 //the following is a useful method in Dates
-newDate.toLocaleString('default',{
+newDate.toLocaleString('default',{//default is the internationalization
     weekday:"long",
     timeZone:''
 
 
 })
-//define an object in this function
+//define an object in this function 
 //ctrl+space for options list
