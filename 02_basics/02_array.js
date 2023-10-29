@@ -15,7 +15,7 @@ const allHeros=marvel_heros.concat(dc_heros)
 // console.log(allHeros);//[ 'thor', 'Ironman', 'Spiderman', 'Superman', 'flash', 'Batman' ]
 //[ 'thor', 'Ironman', 'Spiderman', [ 'Superman', 'flash', 'Batman' ] ]
 //push will modify the og array.
-//concat will produce a new array and merge the two arrays.
+//concat will produce a new array and merge the two arrays.,but better would be to use spread operator
 
 const all_new_heros=[...marvel_heros,...dc_heros]
 console.log(all_new_heros);
@@ -24,7 +24,7 @@ console.log(all_new_heros);
 //it will function the same as concat
 
 const another_array=[1,2,3,[4,5,6],7,[6,7,[4,5]]]
-const real_another_array=another_array.flat(2)//write infinity for ease in calc
+const real_another_array=another_array.flat(2)//write Infinity for ease in calc
 console.log(real_another_array)
 
 console.log(Array.isArray("Hitesh"))//returns whether the passed value is an array or not

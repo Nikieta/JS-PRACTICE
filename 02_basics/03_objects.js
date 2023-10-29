@@ -5,7 +5,7 @@
 // Object.create//constructor method
 const mySym=Symbol("key1")
 const JsUser={
-    name:"Hitesh",//name is processed as string,but any sort of data type can be passed onto it 
+    name:"Hitesh",//name(key) is processed as string,but any sort of data type can be passed onto it 
     "fullname":"Hitesh Choudhary",
     //mySym:"mykey1",
     [mySym]:"mykey1",
@@ -18,6 +18,8 @@ const JsUser={
 
 console.log(JsUser.email)//to access the email from the object
 console.log(JsUser["email"])//another way to access it
+//in the above case both are applicable
+console.log(JsUser["fullname"])
 // myArray=["h","i"]
 // myArray[1]
 
